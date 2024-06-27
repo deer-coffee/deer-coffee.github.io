@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Vazir;
+  src: url('fonts/Vazir-FD.eot');
+  src: url('fonts/Vazir-FD.eot?#iefix') format('FontName-opentype'),
+       url('fonts/Vazir-FD.woff') format('woff'),
+       url('fonts/Vazir-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: VazirB;
+  src: url('fonts/Vazir-Bold-FD.eot');
+  src: url('fonts/Vazir-Bold-FD.eot?#iefix') format('FontName-opentype'),
+       url('fonts/Vazir-Bold-FD.woff') format('woff'),
+       url('fonts/Vazir-Bold-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Yekan;
+  src: url('fonts/Yekan.eot');
+  src: url('fonts/Yekan.eot?#iefix') format('FontName-opentype'),
+       url('fonts/Yekan.woff') format('woff'),
+       url('fonts/Yekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: Vazir !important;
+}
+
+body {
+  background-image: url(images/bg.jpg);
+  background-size: contain;
+  padding: 20px;
+  direction: rtl;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  font-family: Yekan !important;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.bb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  width: 80px;
+  height: 80px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: VazirB !important;
+
+}
+
+.flavor,
+.dessert {
+  text-align: right;
+  width: 85%;
+}
+
+.price {
+  text-align: left;
+  width: 10%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
