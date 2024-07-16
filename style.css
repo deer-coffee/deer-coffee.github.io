@@ -67,7 +67,7 @@ p {
 }
 
 .menu {
-  width: 80%;
+  width: 90%;
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
@@ -92,24 +92,32 @@ hr {
   margin-top: 25px;
 }
 
+.item {
+  justify-content: space-between;
+}
+
 .item p {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
   font-family: VazirB !important;
-
 }
 
-.flavor,
-.dessert {
+.flavor {
   text-align: right;
   width: 75%;
 }
 
+/* .td {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color:sienna;
+} */
+
 .price {
   text-align: left;
-  width: 10%;
+  width: 20%;
 }
 
 /* FOOTER */
