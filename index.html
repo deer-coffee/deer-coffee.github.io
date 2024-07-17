@@ -12,10 +12,11 @@
 
     <div class="menu">
       <header>
-        <!-- <div class="alert alert-warning" role="alert">
-          <p class="p-0 m-0">تخفیف <b>15 درصدی</b> به مناسبت افتتاحیه</p>
-          <p class="p-0 m-0"><b>به مدت یک هفته</b></p>
-        </div> -->
+        <div id="popup" class="alert alert-warning" role="alert">
+          <center>
+            <h3 class="p-3 m-0">به کافه گوزن خوش آمدید.</h3>
+          </center>
+        </div>
         <img class="bb"
             src="images/deer.png"
         />
@@ -558,6 +559,11 @@
         <p class="address">'Copyright © 2024'</p>
       </footer>
     </div>
+    <script>
+      setTimeout(function() {
+          document.getElementById('popup').style.display = 'none';
+      }, 3000);
+  </script>
     <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
