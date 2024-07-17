@@ -82,43 +82,46 @@ img {
   width: 80px;
   height: 80px;
 }
+
 hr {
   height: 2px;
   background-color: brown;
   border-color: brown;
 }
 
+
+
 .bottom-line {
   margin-top: 25px;
 }
 
-.item {
+/* .item {
   justify-content: space-between;
 }
 
-.item p {
+.item p, div {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
   font-family: VazirB !important;
-}
+} */
 
 .flavor {
   text-align: right;
-  width: 75%;
+  font-weight: bolder;
 }
 
+.price {
+  text-align: left;
+  font-weight: bolder;
+}
 /* .td {
   text-decoration: line-through;
   text-decoration-thickness: 2px;
   text-decoration-color:sienna;
 } */
 
-.price {
-  text-align: left;
-  width: 20%;
-}
 
 /* FOOTER */
 
